@@ -1,0 +1,12 @@
+,com.sun.enterprise.glassfish.bootstrap.ClassPathBuilder,com.sun.enterprise.glassfish.bootstrap.ExtensibleClassLoader,com.sun.enterprise.glassfish.bootstrap.ASMainOSGi,com.sun.enterprise.glassfish.bootstrap.ASMainHelper,com.sun.enterprise.glassfish.bootstrap.ASMainKnopflerFish,com.sun.enterprise.glassfish.bootstrap.ASMainEquinox,com.sun.enterprise.glassfish.bootstrap.ASMain,com.sun.enterprise.glassfish.bootstrap.ASMainFelix,com.sun.enterprise.glassfish.bootstrap.GFRepository,com.sun.enterprise.glassfish.bootstrap.GFModuleDefinition,com.sun.enterprise.glassfish.bootstrap.MaskingClassLoader
+com.sun.enterprise.glassfish.bootstrap.ClassPathBuilder,0.0,Infinity,1.0,Infinity,1.0,1.0,2.0,1.0,Infinity,Infinity,Infinity
+com.sun.enterprise.glassfish.bootstrap.ExtensibleClassLoader,1.0,0.0,2.0,1.0,2.0,2.0,3.0,2.0,Infinity,Infinity,Infinity
+com.sun.enterprise.glassfish.bootstrap.ASMainOSGi,Infinity,Infinity,0.0,Infinity,1.0,1.0,2.0,1.0,Infinity,Infinity,Infinity
+com.sun.enterprise.glassfish.bootstrap.ASMainHelper,Infinity,Infinity,1.0,0.0,1.0,2.0,2.0,1.0,Infinity,Infinity,Infinity
+com.sun.enterprise.glassfish.bootstrap.ASMainKnopflerFish,Infinity,Infinity,Infinity,Infinity,0.0,Infinity,1.0,Infinity,Infinity,Infinity,Infinity
+com.sun.enterprise.glassfish.bootstrap.ASMainEquinox,Infinity,Infinity,Infinity,Infinity,Infinity,0.0,1.0,Infinity,Infinity,Infinity,Infinity
+com.sun.enterprise.glassfish.bootstrap.ASMain,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,0.0,Infinity,Infinity,Infinity,Infinity
+com.sun.enterprise.glassfish.bootstrap.ASMainFelix,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,1.0,0.0,Infinity,Infinity,Infinity
+com.sun.enterprise.glassfish.bootstrap.GFRepository,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,0.0,Infinity,Infinity
+com.sun.enterprise.glassfish.bootstrap.GFModuleDefinition,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,1.0,0.0,Infinity
+com.sun.enterprise.glassfish.bootstrap.MaskingClassLoader,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,Infinity,0.0

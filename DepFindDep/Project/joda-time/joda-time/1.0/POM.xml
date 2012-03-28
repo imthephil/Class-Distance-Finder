@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>joda-time</groupId>
+  <artifactId>joda-time</artifactId>
+  <name>Joda time</name>
+  <version>1.0</version>
+  <description>Date and time library to replace JDK date handling.</description>
+  <url>http://joda-time.sourceforge.net</url>
+  <issueManagement>
+    <url>http://sourceforge.net/tracker/?atid=617889&amp;group_id=97367&amp;func=browse</url>
+  </issueManagement>
+  <inceptionYear>2002</inceptionYear>
+  <mailingLists>
+    <mailingList>
+      <name>Joda Interest list</name>
+      <subscribe>http://sourceforge.net/mail/?group_id=47291</subscribe>
+      <unsubscribe>http://sourceforge.net/mail/?group_id=47291</unsubscribe>
+      <archive>http://sourceforge.net/mailarchive/forum.php?forum_id=8530</archive>
+    </mailingList>
+  </mailingLists>
+  <developers>
+    <developer>
+      <id>scolebourne</id>
+      <name>Stephen Colebourne</name>
+      <email>scolebourne@joda.org</email>
+      <organization>SITA ATS Ltd</organization>
+      <roles>
+        <role>Project Lead</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>broneill</id>
+      <name>Brian S O'Neill</name>
+      <email>broneill@users.sourceforge.net</email>
+      <organization/>
+      <roles>
+        <role>Senior Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Guy Allard</name>
+    </contributor>
+    <contributor>
+      <name>Sean Geoghegan</name>
+    </contributor>
+    <contributor>
+      <name>Ashish Katyal</name>
+    </contributor>
+    <contributor>
+      <name>Al Major</name>
+    </contributor>
+    <contributor>
+      <name>Kandarp Shah</name>
+    </contributor>
+  </contributors>
+  <scm>
+    <connection>scm:cvs:pserver:anonymous@cvs.sourceforge.net:/cvsroot/joda-time:JodaTime</connection>
+    <url>http://cvs.sourceforge.net/viewcvs.py/joda-time/JodaTime/</url>
+  </scm>
+  <organization>
+    <name>Joda.org</name>
+    <url>http://www.joda.org</url>
+  </organization>
+  <build>
+    <sourceDirectory>src/java</sourceDirectory>
+    <testSourceDirectory>src/test</testSourceDirectory>
+    <resources>
+      <resource>
+        <directory>${basedir}/target/classes</directory>
+        <includes>
+          <include>org/joda/time/tz/data/**</include>
+        </includes>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <configuration>
+          <includes>
+            <include>org/joda/time/**/TestAll.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  <distributionManagement>
+    <repository>
+      <id>default</id>
+      <name>Default Repository</name>
+      <url>file://home/groups/j/jo/joda-time/htdocs/repository</url>
+    </repository>
+    <site>
+      <id>default</id>
+      <name>Default Site</name>
+      <url>scp://shell.sourceforge.net//home/groups/j/jo/joda-time/htdocs/</url>
+    </site>
+  </distributionManagement>
+</project>
